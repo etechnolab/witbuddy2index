@@ -1,0 +1,1 @@
+(function(c){var a=window.navigator.userAgent,a=-1<a.indexOf("Trident/6")||-1<a.indexOf("Trident/7"),b=c("noscript[data-js-libraries]"),d=function(a){a=a.attr("data-js-libraries").split(",");a.length&&a.forEach(function(a){document.write('\x3cscript src\x3d"'+a+'"\x3e\x3c/script\x3e')})};b.length&&(a&&b.each(function(){d(c(this))}),b.remove())})(jQuery);
